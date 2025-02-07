@@ -169,4 +169,50 @@ nav a:hover::before{
     font-weight: 700;
     margin-right: 20px;
 }
+
+.call-to-action{
+    height: 415px;
+    background-color: hsl(0, 0%, 96%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-grey{
+    background-color: hsl(0, 0%, 87%);
+    margin: 0 15% 0 15%;
+    height: 200px;
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}   
+    
+.container-grey-left{
+    font-size: 17px;
+}
+       
+.container-grey-left h2{
+    margin-bottom: 2px;
+}
+    
+.container-grey button{
+    background-color: hsl(0, 0%, 87%);
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 5px 25px;
+    transition: 0.2s;
+    border:1px solid hsl(0, 0%, 0%);
+    cursor: pointer;
+    &:hover {
+    border:1px solid hsl(0, 0%, 0%);
+    background-color: hsl(0, 0%, 74%);
+    }
+}
+    
+    
     
