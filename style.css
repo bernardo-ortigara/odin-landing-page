@@ -143,4 +143,30 @@ nav a:hover::before{
     height: 300px;
 }
 
-a
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 370px;
+    background-color: hsl(0, 0%, 96%);
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.container-quote{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 28px;
+    font-weight: lighter;
+    margin: 0 15% 0 15%;  
+}
+     
+.author{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+    
