@@ -213,6 +213,12 @@ nav a:hover::before{
     background-color: hsl(0, 0%, 74%);
     }
 }
-    
-    
-    
+
+.C{
+    background-color: hsl(0, 0%, 87%);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    height: 80px;
+}
