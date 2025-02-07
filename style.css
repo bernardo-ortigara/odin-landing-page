@@ -96,3 +96,51 @@ nav a:hover::before{
         background-color: hsl(0, 0%, 74%);
     }
 }
+
+.mid-section{
+    background-color: hsl(0, 0%, 96%);
+}
+
+.services{
+    margin: 0 15% 0 15%;
+    height: 415px;
+}
+
+.services p {
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 900;
+    padding: 25px 0;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.square{
+    width: 225px;
+    height: 225px;
+    border: 2px solid hsl(0, 0%, 60%);
+    border-radius: 15px;
+    margin-bottom: 10px;
+    transition: 0.2s;
+}
+
+.square:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.container{
+    text-wrap: wrap;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    width: 225px;
+    height: 300px;
+}
+
+a
